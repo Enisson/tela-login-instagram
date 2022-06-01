@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {    
+    background-color: rgba(var(--b3f,250,250,250),1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.instagram-phone {
+    height: 610px;
+    position: relative;
+}
+
+.photo {
+    position: absolute;
+    height: 550px;
+    top: 22px;
+    left: 155px;
+}
+
+.photo img {
+    height: 100%;
+}
+
+.instagram-phone .cell img {
+    height: 100%;
+}
+
+.instagram-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    max-width: 358px;
+    margin-bottom: 55px;
+}
+
+.instagram-form form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+    background-color: #fff;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+}
+
+.instagram-form form h1 {
+    margin-top: 36px;
+    margin-bottom: 25px;
+}
+
+.instagram-form form input {
+    width: 258px;
+    padding: .6rem;
+    margin-bottom: 7px;
+    font-size: .8rem;
+    border: 1;
+    background-color: #fafafa;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    outline: none;
+}
+
+.instagram-form form button {
+    margin: 8px 0;
+    border: none;
+    background-color: #b2dffc;
+    padding: .5rem;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 3px;
+    width: 258px;
+}
+
+.instagram-form form .or {
+    margin: 7px 0;
+    color: rgba(var(--f52,142,142,142),1);
+    width: 258px;
+    text-align: center;
+    position: relative;
+    font-size: .8rem;
+}
+
+.instagram-form form .or::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 1px;
+    width: 40%;
+    background-color: rgba(var(--b6a,219,219,219),1);
+}
+
+.instagram-form form .or::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0;
+    height: 1px;
+    width: 40%;
+    background-color: rgba(var(--b6a,219,219,219),1);
+}
+
+.facebook-login {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    
+}
+
+.facebook-login a {
+    text-decoration: none;
+    margin-left: 8px;
+    color: #385185;
+    width: 100%;
+    font-size: .8rem;
+    font-weight: bold;
+}
+
+.forgot {
+    color: #385185;
+    cursor: pointer;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    font-size: .8rem;
+
+}
+
+.signup {
+    border: 1;
+    background-color: #fff;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    padding: 1.5rem;
+    height: 65px;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    font-size: .8rem;
+}
+
+.signup a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #00b2f9;
+}
+
+.get-app {
+    margin: 20px 0;
+    font-size: .8rem;
+}
+
+.apps {
+    display: flex;
+}
+
+a{
+    width: 135px;
+}
+
+a + a {
+    margin-left: .5rem;
+}
+
+.apps img {
+    width: 100%;
+}
